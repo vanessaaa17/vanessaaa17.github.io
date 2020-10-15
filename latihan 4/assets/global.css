@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 80%;
+	max-width: 1366px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3.998em;
+}
+
+@media (max-width: 340px) {
+	
+	}
+}
+
+table.satu {
+
+}
