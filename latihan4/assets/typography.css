@@ -1,0 +1,146 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">);
+
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 2.827em;
+	text-align: center;
+}
+
+span.dropcap {
+	font-family: 'Poppins', sans-serif;
+  	font-size: 2.827em;
+  	line-height: 1em;
+ 	float: left;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 1.414em;
+	text-align: center;
+	line-height: 1.414em;
+	padding-bottom: 1em;
+
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	padding-top: 1em;
+}
+
+h5.note {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 0.707em;	
+	font-style: italic;
+	line-height: 1.414em;
+	margin-bottom: 1em;
+}
+
+h5.sidenote {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 0.707em;	
+	font-style: italic;
+	line-height: 1.414em;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.414em;
+	margin-bottom: 1em;
+}
+
+.medium {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 1.414em;
+	margin-bottom: 0;
+}
+
+.numbering {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.414em;
+}
+
+.quotes {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 1em;
+		font-style: italic;
+		line-height: 1.414em;
+}
+
+table {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 1em;
+}
+
+table.satu thead tr th {
+	font-weight: 500;
+}
+
+table.satu tbody tr td {
+	font-weight: 400;
+}
+
+@media (max-width: 340px) {
+	h1{
+		font-size: 1.899em;
+	}
+
+	span.dropcap {
+  		font-size: 1.899em;
+  		line-height: 1.343em;
+	}
+
+	h2 {
+		font-size: 1.343em;
+		padding-bottom: 0.672em;
+	}
+	h3 {
+		font-size: 0.95em;
+	}
+	h4 {
+		font-size: 0.95em;
+	}
+	h5{
+		font-size: 0.672em;
+	}
+	p {
+		font-size: 0.95em;
+		line-height: 1.343em;
+	}
+	.medium {
+		font-size: 0.95em;
+		line-height: 1.343em;
+	}
+	.numbering {
+		font-size: 0.95em;
+		line-height: 1.343em;
+	}
+	.quotes {
+		font-size: 0.95em;
+		line-height: 1.343em;
+	}
+	table {
+		font-size: 0.95em;
+	}
+}
