@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:ital@0;1&display=swap');
+
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 2.827em;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 1.414em;
+	text-align: center;
+	margin-bottom: 0.672em;
+
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 0.707em;	
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.414em;
+}
+.numbering {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+
+}
+
+@media (max-width: 340px) {
+	h1{
+		font-size: 2.686em;
+	}
+	h2 {
+		font-size: 1.343em
+	}
+	h3 {
+		font-size: 0.95em;
+	}
+	h4 {
+		font-size: 0.95em;
+	}
+	h5{
+		font-size: 0.672em;
+	}
+	p {
+		font-size: 0.95em;
+	}
+}
+
+
