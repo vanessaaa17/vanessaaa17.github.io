@@ -1,0 +1,623 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+main {
+	max-width: 1920px;
+	height: auto;
+	margin: 0 auto;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	display: block;
+	background-image: url('bg2.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 100px;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+body.homepage {
+	background-image: url('bg4.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 100px;
+	background-size: cover;
+}
+
+/*menu nav*/
+nav {
+	display: flex;
+	background-color: #194350; 
+	justify-content: space-around;
+	padding: 10px 20px;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.logonav {
+	align-items: center;
+}
+
+.sidemenu {
+	display: flex;
+	width: 70%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sidemenu a:hover {
+	color:#9BA5A5;
+}
+.sidemenu .sidemenuclose {
+	display: none;
+	padding: 20px;
+	color: #E6EDED;
+	font-size: 50px;
+}
+.sidemenu .sidemenuclose:hover {
+	color: #E6EDED;
+}
+
+.menubutton {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.menubutton a {
+	display: block;
+	padding: 20px;
+	color: #E6EDED;
+	font-size: 50px;
+}
+
+/*homepage*/
+
+a.button {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #E6EDED;
+	background: #59a9ab;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	vertical-align: top;
+}
+a.button:hover {
+	background: #469294;
+}
+a.button .iconify {
+	position: relative;
+	top: 3px;
+}
+
+.people{
+	display: flex;
+	margin-top: 200px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.people .fotopeople1{
+	width: 50%;
+	text-align: center;
+}
+.people .fotopeople2{
+	width: 50%;
+	text-align: center;
+}
+
+.event {
+	display: flex;
+	align-items: center;
+	margin-top: 200px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.event .fotoevent {
+	width: 50%;
+	text-align: center;
+}
+.event .teksevent{
+	width: 50%;
+	padding-left: 40px;
+}
+
+.partners {
+	margin-top: 200px;
+	margin-right: 100px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.partnerslist {
+	display: flex;
+	justify-content: center;
+}
+.partnerslist .logopartner {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttonback {
+	text-align: center;
+}
+
+#mybuttonscroll {
+  display: inline-block; 
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+  color: #92BBBE;
+  position: fixed; 
+  cursor: pointer;
+  border: none;
+  outline: none; 
+}
+#mybuttonscroll:hover {
+  color: #618A8D;
+}
+
+/*footer*/
+footer {
+	padding-top: 140px;
+	bottom: 0px;
+	width: 100%;
+	background:url('footerbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.grupicon {
+	display: flex;
+	justify-content: stretch;
+	padding-right: 100px;
+	padding-left: 100px;
+	border-bottom: 3px solid#233D47;
+}
+
+.iconfooter {
+	text-align: center;
+	padding-bottom: 30px;
+	flex: 1;
+}
+.iconfooter a{
+	text-decoration: none;
+}
+
+.iconfooter a h5:hover{
+	color: #9BA5A5;
+}
+
+.socialmedia {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: left;
+	border-bottom: 3px solid#233D47;
+}
+.iconsocialmedia {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.iconsocialmedia a {
+	color: #E6EDED;
+	padding-right: 15px;
+	width: 50%;
+}
+.socialmedia a:hover{
+	color: #9BA5A5;
+}
+.credit {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+	text-align: left; 
+}
+
+
+/*page about*/
+.homepage .about {
+	margin-top: 950px;
+	margin-bottom: 0;
+}
+
+.content {
+	margin-top: 160px;
+}
+.about {
+	display: flex;
+	align-items: center;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 80px;
+}
+.about .fotoabout{
+	width: 50%;
+	text-align: center;
+}
+
+.about .teksabout{
+	width: 50%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.aboutalt  {
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.aboutalt  .teksabout {
+	width: 50%;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/*page people*/
+.content2 {
+	display: flex;
+	align-items: top;
+	margin-top: 160px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px; 
+}
+.content2 .gambar1 {
+	width: 50%;
+	text-align: center;
+}
+
+.content2 .isigambar1 {
+	width: 50%;
+	text-align: left;
+
+}
+/*page get involved */
+.content3 {
+	margin-top: 160px;
+}
+
+.involved {
+	display: flex;
+	align-items: center;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 80px;
+}
+.involved .fotoinvolved{
+	width: 50%;
+	text-align: center;
+}
+
+.involved .teksinvolved{
+	width: 50%;
+	padding-left: 40px;
+}
+
+.involvedalt  {
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.involvedalt  .teksinvolved {
+	padding-left: 0;
+	padding-right: 40px;
+}
+
+/*page get involved 2 & 3*/
+.get {
+	display: flex;
+	align-items: center;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px; 
+	margin-top: 160px;
+}
+
+.get .fotoget {
+	width: 50%;
+	text-align: center;
+}
+.get .teksget {
+ 	width: 50%;
+ 	padding-left: 30px;
+	padding-right: 30px;
+}
+.get2 {
+	display: flex;
+	align-items: top;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+.get2 .teksget1{
+	width: 50%;
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+/*mobile responsive*/
+@media only screen and ( max-width: 414px ) {
+	img{
+		max-width: 100%
+	}
+	body {
+		background-position: 0 80px;
+	}
+	body.homepage {
+		background-position: 0 80px;
+		background-image: url('bgmobile1.jpg');
+	}
+	nav{
+		max-width: 414px;
+		padding: 10px 0;
+		position: fixed;
+	}
+	.logonav {
+		align-items: center;
+	}
+	.logonav img {
+		height: 70px;
+		max-width: 100%;
+	}
+	
+	.menubutton a {
+		padding: 20px;
+		font-size: 50px;
+	}
+	.sidemenu {
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		max-width: 350px;
+		background: #618A8D;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: -350px;
+		z-index: 10;
+		transition: left 0.5s;
+	}
+	.sidemenu .sidemenuclose {
+		display: block;
+		align-self: flex-end;
+		padding: 20px;
+		font-size: 50px;
+	}
+	.sidemenu a:hover {
+		color: #133E4B;
+	}
+	.menubutton {
+		display: block;
+	}
+
+	nav.mobilemenudisplayed .sidemenu {
+		left: 0;
+	}
+	nav.mobilemenudisplayed .menubutton {
+		display: none;
+	}
+
+	a.button {
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #E6EDED;
+	background: #59a9ab;
+	border-radius: 8px;
+	text-decoration: none;
+	vertical-align: top;
+	}
+
+	a.button:hover {
+	background: #469294;
+	}
+
+	a.button .iconify {
+	position: relative;
+	top: 3px;
+	}
+	#mybuttonscroll {
+		visibility: hidden;
+	}
+
+	.homepage .about {
+		margin-top: 800px;
+		margin-bottom: 0;
+	}
+	.about {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.about .fotoabout{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.about .teksabout{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.people {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.people .fotopeople1{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.people .fotopeople1 img{
+		width: 250px;
+	}
+	.people .fotopeople2{
+		width: 100%;
+	}
+	.people .fotopeople2 img{
+		width: 250px;
+	}
+	.event {
+		flex-direction: column;
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 50px;
+	}
+	.event .fotoevent {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.event .teksevent{
+		width: 100%;
+		padding-left: 0;
+	}
+	.partners {
+		flex-direction: column;
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 50px;
+	}
+	.partnerslist {
+		flex-direction: column;
+	}
+	.partnerslist .logopartner {
+		margin-bottom: 20px;
+	}
+	.content2 {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 160px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.content2 .gambar1{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.content2 .isigambar1 {
+		width: 100%;
+	}
+
+	.content3 {
+	margin-top: 160px;
+	}
+
+	.involved {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.involved .fotoinvolved{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.involved .teksinvolved{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.content4 {
+		margin-top: 160px;
+	}
+	.get {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.get .fotoget {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.get .teksget {
+		width: 100%;
+	}
+
+	.get2 {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 30px;
+	}
+	.get2 .teksget1 {
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	.get2 .teksget1 img{
+		width: 300px;
+	}
+		
+	footer {
+	padding-top: 80px;
+	bottom: 0px;
+	width: 100%;
+	}
+	.grupicon {
+	display: flex;
+	flex-wrap: wrap;
+	padding-right: 40px;
+	padding-left: 40px;
+	}
+
+	.iconfooter {
+	flex-basis: 50%;
+	max-width: 50%;
+	text-align: center;
+	padding-bottom: 20px;
+	}
+
+	.socialmedia {
+	padding-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	text-align: center;
+	justify-content: space-between;
+	}
+
+	.iconsocialmedia {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	}
+	.iconsocialmedia a {
+	padding-right: 15px;
+	}
+	.credit {
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	text-align: center; 
+	}
+}

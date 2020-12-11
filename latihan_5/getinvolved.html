@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 5</title>
+	  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  	<link rel='stylesheet' type='text/css' href='assets/global.css'>
+  	<link rel='stylesheet' type='text/css' href='assets/typography.css'>
+  	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body class="otherpage">
+	 <main id="getinvolved">
+	 	<nav id="menu">
+      <div class="menubutton">
+        <a href="#" id="menubuttontrigger"><span class="iconify" data-icon="heroicons-solid:menu-alt-2" data-inline="false"></span></a>
+      </div>
+	 		<div class="logo"><a href="index.html"><img src="img/wwd.png"></a></div>
+    		<div id="mysidemenu" class="sidemenu">
+          <a href="#" id="sidemenuclose" class="sidemenuclose"><span class="iconify" data-icon="heroicons-solid:x" data-inline="false"></span></a>
+  				<a href="index.html">HOME</a>
+  				<a href="getinvolved.html">GET INVOLVED</a>
+  				<a href="#">EVENTS</a>
+  				<a href="#">MATERIALS</a>
+  				<a href="#">FILM FESTIVAL</a>
+  				<a href="#">MESSAGES</a>
+  				<a href="#">MEDIA</a>
+  			</div>
+  		</nav>
+  		<div class="content3">
+        <h2>GET INVOLVED</h2>
+        <div class="involved">
+    			<div class="fotoinvolved"><img src="img/getinvolved1.png" width="450"></div>
+    			<div class="teksinvolved">
+        		<h3>How to get involved</h3>
+        		<p>There are plenty of ways for you to join the World Wildlife Day celebrations, wherever you are. World Wildlife Day has been oberved in the in the past by people, groups and authorities around the world and in various ways. Whether you take part in big events or even the smallest of gatherings, you can help raise awareness of wildlife and promote conservation and sustainable use!</p>
+            <p><a href="getinvolved2.html" class="button">Read More <span class="iconify" data-icon="bi:caret-right-fill" data-inline="false"></span></a></p>
+    		  </div>
+        </div>
+
+        <div class="involved involvedalt">
+          <div class="fotoinvolved"><img src="img/getinvolved2.jpg"width="450"></div>
+          <div class="teksinvolved">
+            <h3>Everyday Wildlife Protection</h3>
+            <p>Wildlife conservation is an issue that needs attention every day.
+            The threats weighing on wildlife are often large and complex, so much so individuals might feel powerless about them. However, every person’s small actions add up to a much larger solution – making the difference between a species surviving or disappearing forever.</p>
+            <p><a href="getinvolved3.html" class="button">Read More <span class="iconify" data-icon="bi:caret-right-fill" data-inline="false"></span></a></p>
+          </div>
+        </div>
+
+  		</div>
+  </main>
+  
+<footer>
+  <div class="maincontent">
+    <div class="grupicon">
+      <div class="iconfooter"><img src="img/icongetinvolved.png" width="50">
+      <a href="getinvolved.html"><h4>Get Involved</h4></a>
+      <h5>How to celebrate</h5>
+      </div>
+      <div class="iconfooter"><img src="img/iconevent.png" width="50">
+      <h4>Events</h4>
+      <h5>Events map</h5>
+      <h5>Add your event</h5>
+      </div>
+      <div class="iconfooter"><img src="img/iconmaterial.png" width="50">
+      <h4>Materials</h4>
+      <h5>Posters</h5>
+      <h5>Logos</h5>
+      <h5>Social media kit</h5>
+      <h5>Action card</h5>
+      </div>
+      <div class="iconfooter"><img src="img/iconcites.png" width="50">
+      <h4>CITES Secretariat</h4>
+      <h5>11 Chemin des Anémones</h5>
+      <h5>CH-1219 Châtelaine, Geneva</h5>
+      <h5>Email: wildlifeday[at]cites.org</h5>
+      </div>
+    </div>
+    <div class="socialmedia">
+      <h4>Connect with us</h4>
+      <div class="iconsocialmedia">
+      <a href="https://twitter.com/wildlifeday"><span class="iconify" data-icon="cib:twitter" data-inline="false" width="45" ></span></a>
+      <a href="https://www.facebook.com/WorldWildlifeDay/"><span class="iconify" data-icon="bx:bxl-facebook" data-inline="false" width="58"></span></a>
+      <a href="https://www.instagram.com/worldwildlifeday/?hl=id"><span class="iconify" data-icon="dashicons:instagram" data-inline="false" width="55"></span></a>
+      <a href="https://www.youtube.com/channel/UC6-ifazrLgT0jcQjURPCpEQ"><span class="iconify" data-icon="ant-design:youtube-filled" data-inline="false" width="58"></span></a>
+      </div>
+    </div>
+    <div class="credit">
+      <h5>Credits: <br> This site is managed by the CITES Secretariat | Designed by Vanessa Leoni | (wildlifeday.com)</h5>
+    </div>
+  </div>
+</footer>
+   <div onclick="topFunction()" id="mybuttonscroll"><span class="iconify" data-icon="ant-design:up-circle-filled" data-inline="false" width="55"></span></div>
+
+  <script>
+      document.addEventListener('DOMContentLoaded', function(event) { 
+      var menutrigger = document.getElementById('menubuttontrigger');
+      var menuclose = document.getElementById('sidemenuclose');
+      var menu = document.getElementById('menu');
+      menutrigger.addEventListener('click', function(e){
+      e.preventDefault();
+      menu.classList.add('mobilemenudisplayed');
+      });
+      menuclose.addEventListener('click', function(e){
+        e.preventDefault();
+        menu.classList.remove('mobilemenudisplayed');
+      })
+      });
+      
+      var mybutton = document.getElementById("mybuttonscroll");
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+      } else {
+      mybutton.style.display = "none";
+      }
+      }
+      function topFunction() {
+      document.documentElement.scrollTop = 0; 
+      }
+  </script>
+</body>
+</html>
